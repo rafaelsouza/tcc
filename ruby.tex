@@ -33,7 +33,7 @@ Nas linhas 15 e 16 criaremos 2 objetos da classe pessoa passando argumentos dife
   basicstyle=\small,
   title=\lstname,
   numbers=left
-]{exemplo-ruby.rb}
+]{exemplo_ruby.rb}
 
 Como resultado teremos na tela os valores do método invocado pelos objetos homem e mulher:\\
 \$ ruby exemplo-criacao-objetos.rb\\
@@ -58,10 +58,10 @@ O exemplo abaixo demonstra que valores numéricos, valores booleanos, e o nil po
   basicstyle=\small,
   title=\lstname,
   numbers=left
-]{exemplo-objetos.rb}
+]{exemplo_objetos.rb}
 
 O resultado gerado na tela pelo exemplo é:\\
-\$ ruby exemplo-objetos.rb\\
+\$ ruby exemplo_objetos.rb\\
 Fixnum\\
 TrueClass\\
 NilClass\\
@@ -70,14 +70,20 @@ Cada linha é a resposta do nome da classe ao qual cada valor pertence. Por exem
 
 O interpretador mais usado e conhecido de Ruby é o MRI, ou Matz Ruby Interpreter, escrito em C e a sua versão atual é 1.9.2. 
 Além dele há outros interpretadores como JRuby,Rubinius,Maglev,MacRuby,IronRuby. 
-
+\subsection{JRuby}
 JRuby é um interpretador Ruby rodando sobre a maquina virtual Java (JVM). Ele está na versão 1.5.2 e esta versão é compatível com o MRI 1.8.7.
 
+\subsection{Rubinius}
 Rubinius que foi originalmente idealizado para ser o interpretador de Ruby feito em Ruby, mas em virtude da compatibilidade com o MRI parte do seu código é escrito em C++. Está na versão 1.0.1 e é compatível ao MRI 1.8.7 \emph{Um grande aspecto de linguages populares como Java e C, é que a maioria das funcionalidades disponíveis para os programadores é escrito na própria linguagem. O objetivo de Ribinius é adicionar Ruby à estas linguagens. Desta forma Rubystas podem facilmente adicionar funcionalidades à linguagem, arrumar defeitos, e aprender como a linguagem funciona. Aonde é possível Rubinius é escrito em Ruby. Onde (ainda) não é escrito em C++.}
 \cite{rubinius_official_site}\footnote{Tradução livre do autor}
 
+\subsection{Maglev}
 Maglev é o um interpretador Ruby desenvolvido pela empresa Gemstone. Conhecida pelo seu interpretador de Smalltalk, a empresa se lançou como uma plataforma alternativa, já que inclui um mecanismo de persistencia de objetos distribuidos. Está em versão Alpha ainda.\emph{Maglev é uma implementação de Ruby rápida,estável  com uma integrada persistência de objetos e cache compartilhado e distribuído.}
 \cite{maglev_official_site}\footnote{Tradução livre do autor}
 
-Iron Ruby que é um interpretador Ruby feito sobre a plataforma .NET. Ele era patrocinado pela Micrsoft até Julho de 2010, onde a empresa cortou o último desenvolvedor remanescente do projeto. Está na versão 1.0 e com um futuro incerto.
+\subsection{MacRuby}
+Falar sobre MacRuby
+
+\subsection{IronRuby}
+IronRuby que é um interpretador Ruby feito sobre a plataforma .NET. Ele era patrocinado pela Micrsoft até Julho de 2010, onde a empresa cortou o último desenvolvedor remanescente do projeto. Está na versão 1.0 e com um futuro incerto pois ainda não apareceu nenhum outro mantenedor oficial.
 
