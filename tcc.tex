@@ -1,0 +1,76 @@
+\NeedsTeXFormat{LaTeX2e}
+
+\documentclass[a4paper,12pt]{monografia}
+
+% pdflatex trabalho.tex; bibtex trabalho.aux; pdflatex trabalho.tex; pdflatex trabalho.tex; rm trabalho.aux; rm trabalho.bbl; rm trabalho.blg; rm trabalho.lof; rm trabalho.lot; rm trabalho.out; rm trabalho.toc; rm trabalho.log;
+ 
+\usepackage{natbib}
+\usepackage[brazilian]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{graphicx}
+% \usepackage{color}
+\usepackage[usenames,dvipsnames]{color}
+ 
+\begin{document}
+  %----------------- Título e Dados do Autor -----------------
+  \titulo{Avaliação de Ferramentas CMS Ruby}
+  \autor{Rafael Strecker Coelho de Souza} \nome{Rafael} \ultimonome{Coelho de Souza}
+
+  %---------- Informe o Curso e Grau -----
+  \bacharelado \curso{Sistemas de Informação} \ano{2010}
+  \data{\today} % data da aprovação
+  \cidade{Florianópolis}
+
+  %----------Informações sobre a Instituição -----------------
+  \instituicao{Universidade Federal de Santa Catarina} \sigla{UFSC}
+  \unidadeacademica{Centro Tecnológico}
+  
+  \CDU{536.21}
+  \areas{1.Availiação  2. CMS.}
+  \npaginas{xx}  % total de páginas do trabalho
+  
+  \orientador{Lúcia Helena Martins Pacheco}
+  \ttorientador{Doutora em Engenharia}
+  
+  \examinadorum{}
+  \ttexaminadorum{}
+  
+  \examinadordois{Eduardo Bellani}
+  \ttexaminadordois{Bacharel em Sistemas de Informação}
+  
+  \maketitle
+  
+  %----------------------------dedicatória  opcional--------------
+  \begin{dedicatoria}
+  Aos meus pais, amigos e minha namorada que me aguentaram e pressionaram este tempo todo para a conclusão do trabalho \\
+  \end{dedicatoria}
+  
+  \agradecimento{Agradecimentos}
+
+  \indent\indent Agradeço ao meu amigo, colega de curso, parceiro de trabalhos e orientador Eduardo Bellani, pelo encorajamento, apoio e seus ricos conselhos sobre o melhor direcionamento deste trabalho.
+  
+  A professora Lúcia Helena Martins Pacheco pela orientação, amizade, e pela paciência, sem a qual este trabalho não se realizaria.
+  
+  Todos os meus amigos que incentivaram e compreenderam a minha ausência nesse período de corrida atrás do objetivo de concluir o curso.
+  
+  \newpage
+  
+  \tableofcontents
+  
+  \listoffigures
+  
+  \listoftables
+
+  \input{introducao}
+  \input{justificativa}
+  \input{cms}
+  \input{ruby}
+  \input{rails}
+  
+  \bibliographystyle{plainnat}
+  \bibliography{references}
+\end{document}
+

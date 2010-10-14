@@ -1,0 +1,46 @@
+\chapter{Ruby On Rails}
+
+\emph{Ruby on Rails é um framework projetado para escrever apliacações web de forma rápida e simples. Extraído do Basecamp, ferramenta de gerenciamento de projetos da 37 Signals, o criador David Heinemeier Hanson escreveou Rails com soluções já praticadas para problemas comuns do mundo real. Estas soluções e decisões são o que torna o Rails prazeroso de usar - as chatas, tarefas servis, ja estão feitas, deixando você apenas para concentrar no seu problema.}
+\cite{rails_in_nutshell}{página 1}\footnote{Tradução livre do autor}
+
+Ruby on Rails é um framework escrito em Ruby, lançado em 2004, se tornou popular em 2005 à partir de uma palestra feita no Fórum Internacional de Software Livre pelo seu criador David Heinemeier Hanson, onde mostrou como criar uma weblog usando Rails em 15 minutos. 
+
+Rails foi extraído de uma aplicação real, o Basecamp, uma ferramenta de gerenciamento de projetos da empresa 37 Signals. Seu criador teve base em outros frameworks web, utilizando idéias de cada um e combinado à expressividade da linguagem Ruby, uma boa divulgação, atingiu uma grande popularidade. O framework introduziu a linguagem Ruby para o ocidente, e trouxe bastante atenção de programadores interessados nas facilidades providas pelo framework.
+
+Uma de suas filosofias é a convenção ao invés de configuração (CoC-Convention over Configuration). David era contra os frameworks que abusavam de configurações em arquivos XML, então ele partiu para abolir ao máximo possível arquivos de configuração. Mesmo os arquivos de configuração de Rails não utilizam XML e sim um outro formato de serialização chamdo YAML (Yet Another Markup Language). Outra filosofia adotada é o DRY (Don't Repeat Yourself), onde dita que a informação deve ser localizada em um único local.     
+
+Uma característica da arquitetura é o padrão MVC, Model View Controller, que ele utiliza. Este padrão é seguido pelos frameworks web mais populares. A figura abaixo \ref{fig:mvc-diagram} demonstra o funcionamento do MVC.
+
+\begin{figure}[here]
+\includegraphics[width=150mm]{mvc-diagram.png}
+\caption{Arquitetura MVC}
+\label{fig:mvc-diagram}
+\end{figure}
+
+Podemos observar na figura que:
+\begin{enumerate}
+  \item O cliente à partir do seu browser faz uma requisição para uma página.
+  \item Esta requisição é encaminhada ao controller, que tem a responsabilidade de determinar o destino da requisição. Ele deve pedir ao model alguns dados necessários para completar a requisição.  
+  \item O model que é responsável pela comunicação com a base de dados, então faz uma chamada SQL para buscar os dados requisitados pelo controller e os encaminha.
+  \item O controller então encaminha para a view estes dados oriundos do model.
+  \item A view detém a responsabilidade de combinar estes dados com um modelo de html e css, gera a página html de resposta para o browser do cliente.
+\end{enumerate}
+
+
+A estrutura do framework vem separada em diversos módulos, são eles:
+
+\begin{itemize}
+  \item ActiveRecord - Módulo de Mapeamento Objeto Relacional, usado para facilitar o acesso e a manipulação da base de dados. 
+  \item ActionController - Módulo responsável pelo controle, usado para gerenciar todo o ciclo de vida de uma requisição. 
+  \item ActionView - Módulo responsável pela renderização dos dados, é a parte visível para o browser. 
+  \item ActionMailer - Módulo de envio de emails, age similar ao ActionView, lidando com emails. 
+  \item ActiveResource - Módulo de web services, auxilia a gerar e consumir web services RESTful. 
+\end{itemize}
+
+Além destes módulos Rails conta um uma arquitetura de plugins que fomenta a criação e extensão do framework. A partir desta arquitetura é possível extender, modificar e criar novas funcionalidades para o framework. Esta arquitetura fácil levou a criação de milhares de plugins para Rails.
+
+Uma característica que faz do Rails uma opção popular são os seus geradores. São pedaços de códigos gerados automaticamente a partir de comandos enviados pelo console. Os geradores tornaram bem simples a geração de cadastros CRUD (Create Retrieve Update Delete), uma das atividades mais repetitivas do desenvolvimento web.
+
+
+
+
