@@ -1,0 +1,119 @@
+\chapter{Ferramentas Avaliadas}
+
+As ferramentas avaliadas pertencem ao grupo dos Web Content Management Systems, e dentro deste contexto elas serão avaliadas.
+
+\section{RadiantCMS}
+
+\begin{quote}
+Radiant é um sistema de gerenciamento de conteúdo aberto, simples e projetado para pequenas equipes
+\cite{radiant_website}\footnote{Tradução livre do autor}
+\end{quote}
+
+Radiant é um dos CMS mais antigos disponíveis para Ruby, lançado em 2006. De instalação e uso simples tem uma grande quantidade de plugins disponíveis e uma grande comunidade mantenedora da aplicação.
+
+\subsection{Características}
+
+\begin{itemize}
+  \item Interface intuitiva
+  \item Bom sistema de extensões, com um número muito grande de extensões disponíveis.
+  \item Sistema de usuários e permissões simples.
+  \item Snippets
+  \item Linguagem específica de domínio Radius.
+\end{itemize}
+
+\begin{figure}[here]
+\includegraphics[width=150mm]{images/radiant_admin.png}
+\caption{Interface de administração do Radiant}
+\label{fig:radiant_admin.png}
+\end{figure}
+
+Radiant tem um sistema de usuários e permissões simplificado, bom para pequenas organizações que não necessitam de grande complexidade no acesso. Possui algumas extensões de código aberto que adicionam um maior leque de permissões e funcionalidades ao sistema.
+
+Os Snippets são pedaços reutilizáveis de código, que podem ser inseridos em qualquer página ou template (layout), são úteis e dentro da filosofia de Rails DRY, Don't Repeat Yourself. 
+
+Radius é uma linguagem específica de domínio escrita em Ruby, baseada em tags, semelhante a XML e HTML. É utilizada dentro do Radiant para prover algumas funcionalidades como os snippets e outras marcações que encapsulam parte da lógica da aplicação. É possível a partir dela gerar qualquer forma de texto puro ou html. Radiant utiliza várias tags Radius para auxiliar no desenvolvimento de uma aplicação como:
+\begin{itemize}
+ \item Tags que geram conteúdos: \verb+ <r:author />,<r:breadcrumb />,+
+  \verb+<r:comment />, <r:content />, <r:slug />, etc.+
+  \item Tags de controle de fluxo \verb+<r:if_parent />,<r:unless_parent />,+
+  \verb+<r:if_children />, <r:unless_children />, etc.+
+  \item Tags que modificam o contexto da página \verb+<r:page>, <r:children> ,+ 
+  \verb+<r:parent>, etc.+
+  \item Tags que trabalham com coleções \verb+<r:children:each >+
+\end{itemize}
+
+
+\section{RefineryCMS}
+
+RefineryCMS é um sistema gerenciador de conteúdos desenvolvido pela Resolve Digital. Ele é um sistema que começou em 2005 e que em meados de 2009 abriu o seu código para a comunidade. Projetado para pequenos projetos onde pessoas possam manter o conteúdo sem muita complexidade. Possui uma interface amigável, simples de se trabalhar, com um editor de conteúdo WYISWYM (What You See Is What You Mean) integrado. Sua instalação é simples e a documentação é pequena porém bem organizada. Ele recentemente foi portado ja para o Ruby on Rails versão 3 e utiliza engines, que são mini aplicações Rails dentro de um projeto Rails, como forma de extensão, facilitando para a comunidade escrever extensões para a ferramenta. 
+
+O sistema de modelos (templates) do Refinery é feito através de temas, gerados a partir de seu modelo de extensões. Seu ponto forte é que não é necessário aprender uma linguagem específica de domínio como o Radius para efetuar as customizações de layout. Uma desvantagem é que o usuário final pouco pode customizar um layout dentro da interface de administração.
+
+\subsection{Características}
+
+\begin{itemize}
+  \item Interface intuitiva, fácil para usuários não técnicos.
+  \item Sistema de extensões baseado em engines, fácil de ser usado, porém não há muitas engines disponíveis.
+  \item Instalação simples
+  \item Documentação bem organizada.
+  \item O foco do usuário final é em somente alterar conteúdo.
+\end{itemize}
+
+\begin{figure}[here]
+\includegraphics[width=150mm]{images/refinery_admin.png}
+\caption{Interface de administração do Refinery}
+\label{fig:refinery_admin.png}
+\end{figure}
+
+\begin{figure}[here]
+\includegraphics[width=150mm]{images/radiant_admin.png}
+\caption{Interface de criação / edição de página do Refinery}
+\label{fig:refinery_admin.png}
+\end{figure}
+
+\section{BrowserCMS}
+
+BrowserCMS é um sistema gerenciador de conteúdos desenvolvido pela empresa BrowserMedia, econtra-se na versão 3.1.2. Foi por vários anos um CMS de comercialmente licensiado, escrito na linguagem Java. Motivados pela "onda" de Ruby on Rails, e pela falta de um CMS em Ruby on Rails que suprisse as necessidades de seus clientes, reescreveram o seu CMS em 2009 e deixaram-o com uma licensa de código aberto.
+
+\subsection{Características}
+
+\begin{itemize}
+  \item Sistema voltado ao mundo corporativo para grandes e médias organizações.
+  \item Sistema de workflow completo de publicação.
+  \item Sistema amplo de permissões.
+  \item Versionamento de conteúdo.
+  \item Poucas extensões 
+  \item Documentação pequena.
+\end{itemize}
+
+\begin{figure}[here]
+\includegraphics[width=150mm]{images/browsercms_admin.png}
+\caption{Interface de administração do BrowserCMS}
+\label{fig:browsercms_admin.png}
+\end{figure}
+
+
+\section{Zena}
+
+Zena é um CMS baseado em Ruby on Rails, escrito a partir de 2007 por Gaspard Bucher que inicialmente o desenvolveu par ao seu uso pessoal. Após um certo tempo ele decidiu incrementar a flexibilidade do cms, adicionando uma linguagem de templates, Zafu, que poderia ser usada também por outras pessoas.
+
+A linguagem específica de domínio Zafu, tem objetivo semelhante ao Radius, de abstrair e facilitar a inclusão de códigos ruby dentro 
+
+
+\subsection{Características}
+
+\begin{itemize}
+  \item Sistema voltado ao mundo corporativo para grandes e médias organizações.
+  \item Sistema de workflow completo de publicação.
+  \item Sistema amplo de permissões.
+  \item Versionamento de conteúdo.
+  \item Poucas extensões 
+  \item Documentação pequena.
+\end{itemize}
+
+\begin{figure}[here]
+\includegraphics[width=150mm]{images/zena_admin.png}
+\caption{Interface de administração do Zena}
+\label{fig:zena_admin.png}
+\end{figure}
+
