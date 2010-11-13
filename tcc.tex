@@ -16,7 +16,6 @@
 \usepackage[usenames,dvipsnames]{color}
 
 %\usepackage{graphicx}
-\usepackage[pdftex]{color,graphicx}
 %\usepackage{html}
 %
 %%make the url links blue
@@ -29,18 +28,64 @@
 %}
 
 
-\title{Avaliação de Ferramentas CMS Ruby on Rails}
+\begin{document}
+  %----------------- Título e Dados do Autor -----------------
+  \titulo{Avaliação de Ferramentas CMS Ruby on Rails}
+  \autor{Rafael Strecker Coelho de Souza} \nome{Rafael} \ultimonome{Coelho de Souza}
 
-\author{Rafael Strecker Coelho de Souza
-\thanks{\htmladdnormallink{blog}{http://www.cnxs.com.br} --
-\htmladdnormallink{contact} {mailto:ebellani@gmail.com}} } 
+  %---------- Informe o Curso e Grau -----
+  \bacharelado \curso{Sistemas de Informação} \ano{2010}
+  \data{\today} % data da aprovação
+  \cidade{Florianópolis}
 
-% I'm using these fonts to inspire myself on writing
-%     How to write a great research paper, by Simon Peyton Jones
-%     Writing Tips for Ph. D. Students John H. Cochrane
-%     Style: Toward Clarity and Grace by Joseph Williams
-\begin{document} 
-    \maketitle
+  %----------Informações sobre a Instituição -----------------
+  \instituicao{Universidade Federal de Santa Catarina} \sigla{UFSC}
+  \unidadeacademica{Centro Tecnológico}
+  
+  \CDU{536.21}
+  \areas{1.CMS  2. Usabilidade.}
+  \npaginas{xx}  % total de páginas do trabalho
+  
+  \orientador{Lúcia Helena Martins Pacheco}
+  \ttorientador{Doutora em Engenharia}
+  
+  \examinadorum{Christiane Gresse von Wangenheim }
+  \ttexaminadorum{Doutora em Ciências da Computação}
+  
+  \examinadordois{José Eduardo De Lucca}
+  \ttexaminadordois{Mestre em Ciências da Computação}
+  
+  \examinadortres{Eduardo Bellani}
+  \ttexaminadortres{Bacharel em Sistemas de Informação}
+  
+  
+  \maketitle
+  
+  %----------------------------dedicatória  opcional--------------
+  \begin{dedicatoria}
+  Aos meus pais, minha namorada.\\
+  \end{dedicatoria}
+  
+  \agradecimento{Agradecimentos}
+
+  \indent\indent Agradeço ao meu amigo, colega de curso, parceiro de trabalhos e orientador Eduardo Bellani, pelo apoio e sua vontade em me ajudar a concluir o trabalho.
+  
+  A professora Lúcia Helena Martins Pacheco pela orientação, amizade, por toda a ajuda nesta caminhada e pela paciência, sem a qual este trabalho não se realizaria.
+  
+  Ao meu amigo Wilson, que me incentivou ao concluir o curso no semestre anterior.
+  
+  A minha namorada Claudia, que por tantas vezes me incentivou, ajudou e me aguentou durante a jornada deste trabalho.
+  
+  E a todos meus amigos e familiares que me incentivaram neste trabalho.
+  
+  \newpage
+  
+  \tableofcontents
+  
+  \listoffigures
+  
+  \listoftables
+
     \input{introducao}
     \input{justificativa}
     \input{objetivos}
@@ -55,6 +100,7 @@
     \input{conclusao}
     \input{analise_critica}
   
-    \bibliographystyle{plainnat}
-    \bibliography{./references}
+  \bibliographystyle{plainnat}
+  \bibliography{./references}
 \end{document}
+
