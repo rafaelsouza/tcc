@@ -22,16 +22,15 @@ A filosofia de Ruby segundo o Yukihiro 'Matz' Matsumoto: \emph{Ruby foi projetad
 
 Abaixo um exemplo de uma classe Ruby 
 
-
-No exemplo que segue podemos visualizar como Ruby define uma classe e cria um objeto. A definição de classe se dá pelo comando \emph{class}. No exemplo o nome da classe é \emph{Pessoa}. Na linha 2 há uma declaração de um atributo da classe \emph{attr_acessor} esta declaração faz com que o Ruby gere automaticamente métodos de acessores e modificadores .  O método de criação do objeto chamado \emph{initialize} recebe um argumento \emph{nome}. O exemplo ilustra uma das características de Ruby que é a possibilidade de valor padrão para um argumento. Ao criar o objeto com o método \emph{new} pode se passar um objeto string com um nome, ou então irá ser utilizado o padrão. Dentro do método initialize iremos apontar o argumento sexo para a variável de classe \emph{@sexo}.
+No exemplo que segue podemos visualizar como Ruby define uma classe e cria um objeto. A definição de classe se dá pelo comando \emph{class}. No exemplo o nome da classe é \emph{Pessoa}. Na linha 2 há uma declaração de um atributo da classe \emph{attr_acessor}, esta declaração faz com que o Ruby gere automaticamente métodos de acessores e modificadores.  O método de criação do objeto chamado \emph{initialize} recebe um argumento \emph{nome}. O exemplo ilustra uma das características de Ruby que é a possibilidade de valor padrão para um argumento. Ao criar o objeto com o método \emph{new} pode se passar um objeto string com um nome, ou então irá ser utilizado o padrão. Dentro do método initialize iremos apontar o argumento sexo para a variável de classe \emph{@sexo}.
 
 Nas linhas 15 e 16 criaremos 2 objetos da classe pessoa passando argumentos diferentes para cada um deles. Nas linhas subsequentes iremos escrever na tela do console o valores retornados pelo método agradecer que vai retornar o agradecimento correto para \emph{homem} e \emph{mulher}.
 
 \lstinputlisting[
-  language=Ruby,attr_acessor
+  language=Ruby,
   emph={catch,class,def,else,end,if,require,return,then,throw,unless,attr_acessor},
   emphstyle=\color{Red}\bfseries,
-  emph={[2]ctak,ctak_aux,initialize,new},
+  emph={[2]initialize,new},
   emphstyle={[2]\color{Blue}},
   emph={[3]Pessoa},
   emphstyle={[3]\color{Yellow}\bfseries},
@@ -40,7 +39,7 @@ Nas linhas 15 e 16 criaremos 2 objetos da classe pessoa passando argumentos dife
   basicstyle=\small,
   title=\lstname,
   numbers=left
-]{exemplo_ruby.rb}
+]{code/exemplo_ruby.rb}
 
 
 Em Ruby, como é uma linguagem orientada à objeto pura, tudo é um objeto. Desde números aos valores booleanos true  e false ao nil (versão de Ruby para null, indicação de falta de um valor).(\cite{the_ruby_programming_language)
@@ -51,7 +50,7 @@ O exemplo abaixo demonstra que valores numéricos, valores booleanos, e o nil po
   language=Ruby,
   emph={catch,class,def,else,end,if,require,return,then,throw,unless},
   emphstyle=\color{Red}\bfseries,
-  emph={[2]agradecer,ctak,ctak_aux,initialize,new,tak,tarai},
+  emph={[2]initialize,new},
   emphstyle={[2]\color{Blue}},
   emph={[3]Pessoa},
   emphstyle={[3]\color{Yellow}\bfseries},
@@ -60,7 +59,7 @@ O exemplo abaixo demonstra que valores numéricos, valores booleanos, e o nil po
   basicstyle=\small,
   title=\lstname,
   numbers=left
-]{exemplo_objetos.rb}
+]{code/exemplo_objetos.rb}
 
 O resultado impresso na tela pelo exemplo é:\\
 \$ ruby exemplo_objetos.rb\\

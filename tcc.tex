@@ -1,13 +1,19 @@
-\documentclass[a4paper, 12pt]{article}
+\NeedsTeXFormat{LaTeX2e}
+
+\documentclass[a4paper,12pt]{monografia}
 
 %this is for use in sbc
 %\usepackage{sbc-template}
 
-%better bibliography style control
 \usepackage{natbib}
-
-%utf-8, because it is the default in linux these days
+\usepackage[brazilian]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{graphicx}
+% \usepackage{color}
+\usepackage[usenames,dvipsnames]{color}
 
 %\usepackage{graphicx}
 \usepackage[pdftex]{color,graphicx}
@@ -23,7 +29,7 @@
 %}
 
 
-\title{Avaliação de Ferramentas CMS Ruby}
+\title{Avaliação de Ferramentas CMS Ruby on Rails}
 
 \author{Rafael Strecker Coelho de Souza
 \thanks{\htmladdnormallink{blog}{http://www.cnxs.com.br} --
@@ -37,6 +43,7 @@
     \maketitle
     \input{introducao}
     \input{justificativa}
+    \input{objetivos}
     \input{estrutura}
     \input{ruby}
     \input{rails}
