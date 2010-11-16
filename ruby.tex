@@ -8,23 +8,23 @@ Ruby é uma linguagem de programação de código aberto e orientada a objetos c
 
 Uma descrição pouco mais detalhada sobre Ruby: 
 \begin{quote}
-Ruby é uma linguagem de programação dinâmica com uma complexa, porém expressiva gramática e um núcleo de  biblioteca de classes com uma rica e poderosa API. Ruby tem inspirações em Lisp,SmallTalk e Perl, mas usa uma gramática que facilita o entendimento de programadores Java e C. Ruby é uma linguagem orientada à objetos pura, mas também suporta estilos de programação funcional e procedural.Ela inclui uma poderosa capacidade de metaprogramação e pode ser usada para criar linguagens de domínio específico ou DSLs.} 
-\cite{the_ruby_proggraming_language}
+Ruby é uma linguagem de programação dinâmica com uma complexa, porém expressiva gramática e um núcleo de  biblioteca de classes com uma rica e poderosa API. Ruby tem inspirações em Lisp,SmallTalk e Perl, mas usa uma gramática que facilita o entendimento de programadores Java e C. Ruby é uma linguagem orientada à objetos pura, mas também, suporta estilos de programação funcional e procedural. Ela inclui uma poderosa capacidade de metaprogramação e pode ser usada para criar linguagens de domínio específico conhecidas pelo acrônimo DSLs.
+\cite{the_ruby_programing_language}
 \end{quote}
 \footnote{Tradução livre do autor}
 
 Ruby é escrita em C e atualmente está disponível para as mais diversas plataformas UNIX, Mac OS X, Windows 95/98/Me/NT/2000/XP/Vista/Seven, DOS, BeOS, OS/2, .NET, Solaris (\cite{ruby_official_website}).
 
-O criador de Ruby, Yukihiro 'Matz' Matsumoto, teve a idéia de criar uma linguagem de programação em 1993, durante uma conversa um um colega sobre linguagens de script. Através da conversa, o seu interesse cresceu muito sobre as linguagens de script, onde ele ficou impressionado pelo poder e pelas possibilidades. Como fora um fã de longa data de programação orientada à objetos, lhe pareceu , a orientação à objetos, muito adequada para linguagens de script. Então passou olhar pela rede e encontrou Perl 5, que ainda não havia sido lançada, contendo algumas características de orientação à objetos, mas ainda não era o que ele queria. Então decidiu abandonar Perl como uma linguagem de script orientada à objetos. Então ele procurou Python, era uma linguagem orientada à objetos interpretada. Mas ele não teve a sensação que era uma linguagem de script, era uma linguagem híbrida, procedural e orientada à objetos. Matz queria uma linguagem de script que seria mais poderosa que Perl e mais orientada à objetos que Python. Então ele decidiu criar a própria linguagem. O nome Ruby veio de uma brincadeira com um amigo durante o projeto de desenvolvimento da linguagem, ele queria um nome de uma pedra preciosa, a là Perl, e então o amigo sugeriu Ruby, que depois se tornou o nome oficial da linguagem.  (\cite{inverview_with_matz}).
+O criador de Ruby, Yukihiro 'Matz' Matsumoto, teve a idéia de criar uma linguagem de programação em 1993, durante uma conversa um um colega sobre linguagens de script. Através da conversa, o seu interesse cresceu muito sobre as linguagens de script, onde ele ficou impressionado pelo poder e pelas possibilidades. Como fora um fã de longa data de programação orientada à objetos, lhe pareceu , a orientação à objetos, muito adequada para linguagens de script. Então passou olhar pela rede e encontrou Perl 5, que ainda não havia sido lançada, contendo algumas características de orientação à objetos, mas ainda não era o que ele queria. Então decidiu abandonar Perl como uma linguagem de script orientada à objetos. Então ele procurou Python, era uma linguagem orientada à objetos interpretada. Mas ele não teve a sensação que era uma linguagem de script, era uma linguagem híbrida, procedural e orientada à objetos. Matz queria uma linguagem de script que seria mais poderosa que Perl e mais orientada à objetos que Python. Então ele decidiu criar a própria linguagem. O nome Ruby veio de uma brincadeira com um amigo durante o projeto de desenvolvimento da linguagem, ele queria um nome de uma pedra preciosa, a là Perl, e então o amigo sugeriu Ruby, que depois se tornou o nome oficial da linguagem.  (\cite{interview_with_matz}).
 
 A filosofia de Ruby segundo o Yukihiro 'Matz' Matsumoto: \emph{Ruby foi projetado para fazer programadores mais felizes}
 \cite{the_ruby_programming_language}{página 1}\footnote{Tradução livre do autor}
 
 Abaixo um exemplo de uma classe Ruby 
 
-No exemplo que segue podemos visualizar como Ruby define uma classe e cria um objeto. A definição de classe se dá pelo comando \emph{class}. No exemplo o nome da classe é \emph{Pessoa}. Na linha 2 há uma declaração de um atributo da classe \emph{attr_acessor}, esta declaração faz com que o Ruby gere automaticamente métodos de acessores e modificadores.  O método de criação do objeto chamado \emph{initialize} recebe um argumento \emph{nome}. O exemplo ilustra uma das características de Ruby que é a possibilidade de valor padrão para um argumento. Ao criar o objeto com o método \emph{new} pode se passar um objeto string com um nome, ou então irá ser utilizado o padrão. Dentro do método initialize iremos apontar o argumento sexo para a variável de classe \emph{@sexo}.
+No exemplo que segue podemos visualizar como Ruby define uma classe e cria um objeto. A definição de classe se dá pelo comando \emph{class}. No exemplo o nome da classe é \emph{Pessoa}. Na linha 2 há uma declaração de um atributo da classe \emph{attr_acessor}, esta declaração faz com que o Ruby gere automaticamente métodos de acessores e modificadores.  O método de criação do objeto chamado \emph{initialize} recebe um argumento \emph{nome}. O exemplo ilustra uma das características de Ruby que é a possibilidade de valor padrão para um argumento. Ao criar o objeto com o método \emph{new} pode se passar um objeto string com um nome, ou então irá ser utilizado o padrão. 
 
-Nas linhas 15 e 16 criaremos 2 objetos da classe pessoa passando argumentos diferentes para cada um deles. Nas linhas subsequentes iremos escrever na tela do console o valores retornados pelo método agradecer que vai retornar o agradecimento correto para \emph{homem} e \emph{mulher}.
+Na linha 9 é criado um objeto da classe pessoa. Na linha 10 é escrito na tela do console o valor default retornado pelo método nome. Na linha 11 então é alterado o valor do atributo nome para em seguida ser escrito no console a nova string passada ao atributo. 
 
 \lstinputlisting[
   language=Ruby,
@@ -42,7 +42,7 @@ Nas linhas 15 e 16 criaremos 2 objetos da classe pessoa passando argumentos dife
 ]{code/exemplo_ruby.rb}
 
 
-Em Ruby, como é uma linguagem orientada à objeto pura, tudo é um objeto. Desde números aos valores booleanos true  e false ao nil (versão de Ruby para null, indicação de falta de um valor).(\cite{the_ruby_programming_language)
+Em Ruby, como é uma linguagem orientada à objeto pura, tudo é um objeto. Desde números aos valores booleanos true  e false ao nil (versão de Ruby para null, indicação de falta de um valor).\cite{the_ruby_programming_language}
 
 O exemplo abaixo demonstra que valores numéricos, valores booleanos, e o nil podem invocar o método \emph{class} que retorna a sua classe e imprimiremos o resultado na tela do console.
 
@@ -79,12 +79,9 @@ Rubinius que foi originalmente idealizado para ser o interpretador de Ruby feito
 \cite{rubinius_official_site}\footnote{Tradução livre do autor}
 
 \subsection{Maglev}
-Maglev é o um interpretador Ruby desenvolvido pela empresa Gemstone. Conhecida pelo seu interpretador de Smalltalk, a empresa se lançou como uma plataforma alternativa, já que inclui um mecanismo de persistência de objetos distribuídos. Está em versão Alpha ainda.\emph{Maglev é uma implementação de Ruby rápida e estável com uma integrada persistência de objetos e cache compartilhado e distribuído.}
+Maglev é o um interpretador Ruby desenvolvido pela empresa Gemstone. A empresa é conhecida pelo seu interpretador de Smalltalk, se lançou como uma plataforma alternativa, já que inclui um mecanismo de persistência de objetos distribuídos. Está em versão Alpha ainda.\emph{Maglev é uma implementação de Ruby rápida e estável com uma integrada persistência de objetos e cache compartilhado e distribuído.}
 \cite{maglev_official_site}\footnote{Tradução livre do autor}
 
-\subsection{MacRuby}
-Falar sobre MacRuby
-
 \subsection{IronRuby}
-IronRuby que é um interpretador Ruby feito sobre a plataforma .NET. Ele era patrocinado pela Microsoft até Julho de 2010, onde a empresa cortou o último desenvolvedor remanescente do projeto. Está na versão 1.0 e com um futuro incerto pois ainda não apareceu nenhum outro mantenedor oficial.
+IronRuby é um interpretador Ruby feito sobre a plataforma .NET. Ele era patrocinado pela Microsoft até Julho de 2010, onde a empresa cortou o último desenvolvedor remanescente do projeto. Está na versão 1.0 e com um futuro incerto, pois ainda não apareceu nenhum outro mantenedor oficial.
 
