@@ -45,11 +45,11 @@
 \contentsline {subsection}{\numberline {7.3.1}Caracter\IeC {\'\i }sticas}{34}{subsection.7.3.1}
 \contentsline {section}{\numberline {7.4}Zena}{34}{section.7.4}
 \contentsline {subsection}{\numberline {7.4.1}Caracter\IeC {\'\i }sticas}{35}{subsection.7.4.1}
-\contentsline {chapter}{\numberline {8}Metodologia}{36}{chapter.8}
-\contentsline {section}{\numberline {8.1}Inspe\IeC {\c c}\IeC {\~a}o por Checklist}{36}{section.8.1}
-\contentsline {section}{\numberline {8.2}Avalia\IeC {\c c}\IeC {\~a}o da comunidade}{46}{section.8.2}
-\contentsline {chapter}{\numberline {9}Avalia\IeC {\c c}\IeC {\~a}o das ferramentas}{48}{chapter.9}
-\contentsline {section}{\numberline {9.1}Avalia\IeC {\c c}\IeC {\~a}o da Comunidade}{48}{section.9.1}
-\contentsline {section}{\numberline {9.2}Escolha da ferramenta}{49}{section.9.2}
-\contentsline {chapter}{\numberline {10}Conclus\IeC {\~a}o}{50}{chapter.10}
-\contentsline {chapter}{\numberline {11}An\IeC {\'a}lise Cr\IeC {\'\i }tica}{51}{chapter.11}
+\contentsline {chapter}{\numberline {8}Metodologia}{37}{chapter.8}
+\contentsline {section}{\numberline {8.1}Inspe\IeC {\c c}\IeC {\~a}o por Checklist}{37}{section.8.1}
+\contentsline {section}{\numberline {8.2}Avalia\IeC {\c c}\IeC {\~a}o da comunidade}{47}{section.8.2}
+\contentsline {chapter}{\numberline {9}Avalia\IeC {\c c}\IeC {\~a}o das ferramentas}{49}{chapter.9}
+\contentsline {section}{\numberline {9.1}Avalia\IeC {\c c}\IeC {\~a}o da Comunidade}{49}{section.9.1}
+\contentsline {section}{\numberline {9.2}Escolha da ferramenta}{50}{section.9.2}
+\contentsline {chapter}{\numberline {10}Conclus\IeC {\~a}o}{51}{chapter.10}
+\contentsline {chapter}{\numberline {11}An\IeC {\'a}lise Cr\IeC {\'\i }tica}{52}{chapter.11}
