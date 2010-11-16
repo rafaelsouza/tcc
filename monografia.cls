@@ -371,6 +371,11 @@
              \vfill
              \rule{9.0cm}{0.1mm} \\
              {\@examinadordois \\ \footnotesize\@ttexaminadordois}}
+             \rule{9.0cm}{0.1mm} \\
+             {\@examinadortres \\ \footnotesize\@ttexaminadortres}\\
+             \vfill
+             \rule{9.0cm}{0.1mm} \\
+             {\@examinadorquatro \\ \footnotesize\@ttexaminadorquatro}}
 \def\keywords#1{\gdef\@keywords{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
