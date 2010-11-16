@@ -22,7 +22,7 @@ A filosofia de Ruby segundo o Yukihiro 'Matz' Matsumoto: \emph{Ruby foi projetad
 
 Abaixo um exemplo de uma classe Ruby 
 
-No exemplo que segue podemos visualizar como Ruby define uma classe e cria um objeto. A definição de classe se dá pelo comando \emph{class}. No exemplo o nome da classe é \emph{Pessoa}. Na linha 2 há uma declaração de um atributo da classe \emph{attr_acessor}, esta declaração faz com que o Ruby gere automaticamente métodos de acessores e modificadores.  O método de criação do objeto chamado \emph{initialize} recebe um argumento \emph{nome}. O exemplo ilustra uma das características de Ruby que é a possibilidade de valor padrão para um argumento. Ao criar o objeto com o método \emph{new} pode se passar um objeto string com um nome, ou então irá ser utilizado o padrão. 
+No exemplo que segue podemos visualizar como Ruby define uma classe e cria um objeto. A definição de classe se dá pelo comando \emph{class}. No exemplo o nome da classe é \emph{Pessoa}. Na linha 2 há uma declaração de um atributo da classe \verb+attr_acessor+, esta declaração faz com que o Ruby gere automaticamente métodos de acessores e modificadores.  O método de criação do objeto chamado \emph{initialize} recebe um argumento \emph{nome}. O exemplo ilustra uma das características de Ruby que é a possibilidade de valor padrão para um argumento. Ao criar o objeto com o método \emph{new} pode se passar um objeto string com um nome, ou então irá ser utilizado o padrão. 
 
 Na linha 9 é criado um objeto da classe pessoa. Na linha 10 é escrito na tela do console o valor default retornado pelo método nome. Na linha 11 então é alterado o valor do atributo nome para em seguida ser escrito no console a nova string passada ao atributo. 
 
@@ -69,8 +69,12 @@ NilClass\\
 
 Cada linha é a resposta do nome da classe ao qual cada valor pertence. Por exemplo o número 1 é da classe \emph{Fixnum}, o número 1.1 pertence a classe \emph{Float} e assim por diante.
 
+\section{Interpretadores} 
+
+\subsection{MRI}
 O interpretador mais usado e conhecido de Ruby é o MRI, ou Matz Ruby Interpreter, escrito em C e a sua versão atual é 1.9.2. 
 Além dele há outros interpretadores como JRuby, Rubinius, Maglev, MacRuby e IronRuby. 
+
 \subsection{JRuby}
 JRuby é um interpretador Ruby rodando sobre a máquina virtual Java (JVM). Ele está na versão 1.5.2 que é compatível com o MRI 1.8.7.
 
