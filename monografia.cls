@@ -370,7 +370,10 @@
              {\@examinadorum \\ \footnotesize\@ttexaminadorum}\\
              \vfill
              \rule{9.0cm}{0.1mm} \\
-             {\@examinadordois \\ \footnotesize\@ttexaminadordois}}
+             {\@examinadordois \\ \footnotesize\@ttexaminadordois}
+             \vfill
+             \rule{9.0cm}{0.1mm} \\
+             {\@examinadortres \\ \footnotesize\@ttexaminadortres}\\ }
 \def\keywords#1{\gdef\@keywords{#1}}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
