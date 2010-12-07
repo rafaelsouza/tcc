@@ -4,29 +4,29 @@ Este capítulo se dedica a fazer a avaliação entre as ferramentas Radiant, Ref
 
 \section{Qualification and Selection of Open Source Sofware}
 
-O critério observado da metodologia QSOS foi o de gerenciamento de conteúdo na web (Web Content Management), sua origem se encontra em \url{http://www.qsos.org/templates/cms.html}. A avaliação foi executada pelo autor do trabalho. 
+O critério observado da metodologia QSOS foi o de gerenciamento de conteúdo na web (Web Content Management), sua origem se encontra em \url{http://www.qsos.org/templates/cms.html}. A avaliação foi executada pelo próprio autor do trabalho. Os scores variam entre 0,1,2. 
 
 \begin{table}[ht]
 \caption{Tabela de avaliação do critério de gerenciamento de conteúdo da QSOS } % title of Table
 \centering % used for centering table
-\begin{tabular}{p{4.2cm} | c | c | c} % centered columns (5 columns)
+\begin{tabular}{p{5.2cm} | c | c | c} % centered columns (5 columns)
 \hline\hline %inserts double horizontal lines
 Critério & Radiant & Refinery & BrowserCMS  \\ [0.5ex] % inserts table
 % heading
 \hline % inserts single horizontal line
 Blog        & 1  & 1   & 1    \\ \hline
-Recent changes advertised on the web interface  & 0 & 1 & 0    \\ \hline
-Support for other notifications media & 0 & 0 & 0 \\ [1ex] % [1ex] adds vertical space
+Últimas mudanças anunciadas dentro da interface web  & 0 & 1 & 0    \\ \hline
+Suporte para notificações de mudanças em outros tipos de mídia como email, rss & 0 & 0 & 0 \\ [1ex] % [1ex] adds vertical space
 \hline % inserts single line
 \end{tabular}
 \label{table:qsos_avaliacao_ferramentas} % is used to refer this table in the text
 \end{table}
 
-A tabela\ref{table:qsos_avaliacao_ferramentas} mostra que no quesito blog houve um score parcial em todas as ferramentas, já que todos trazem esta funcionalidade como extensão. Há um resultado positivo para o Refinery no quesito de atualizações recentes pois ele é o único que possui um dasboard informando as últimas atividades. E no terceiro item todas as ferramentas falharam, na notificação de atualizações por outros formatos como email e rss.
+A Tabela\ref{table:qsos_avaliacao_ferramentas} mostra que no quesito blog houve um score parcial em todas as ferramentas, já que todos trazem esta funcionalidade como extensão. Há um resultado positivo para o Refinery no quesito de atualizações recentes pois ele é o único que possui um painel de controle com notificações, informando as últimas atividades. E no terceiro item todas as ferramentas falharam, na notificação de atualizações por outros formatos como email e rss.
 
 \section{Avaliação da Comunidade Open Source}
 
-Esta tabela de avaliação se baseia em dados retirados dos repositórios de dados (\url{http://www.github.com}), lista de discussão de email, e redes sociais como o Twitter (\url{http://www.twitter.com})
+Esta tabela de avaliação se baseia em dados retirados dos repositórios de dados (\url{http://www.github.com}), lista de discussão de email, e redes sociais como o Twitter (\url{http://www.twitter.com}). Foi organizada de acordo com os valores numérricos disponibilizados nos sites pesquisado. Estes dados foram acessados em outubro de 2010. Em todos os quesitos aplicáveis, quanto maior o número melhor o desempenho. 
 
 \begin{table}[ht]
 \caption{Tabela comparativa da comunidade open source de cada ferramenta } % title of Table
@@ -54,15 +54,17 @@ IRC                    & Sim   & Sim   & Sim  \\ [1ex] % [1ex] adds vertical spa
 
 Pode-se observar nesta tabela que o Radiant e Refinery se destacam quanto ao número de pessoas que acompanham o projeto, fazem suas versões do mesmo, contribuem e participam da lista de email. São de fato os dois projetos mais ativos nestes termos. BrowserCMS fica um pouco aquém dos dois . É visível que todas as ferramentas possuem variados canais de comunicação com seus usuários (todos os canais avaliados), ressalta a importância dada à comunidade pelos seus mantenedores.
 
+O número de forks, é visto as vezes como uma coisa ruim em um projeto open source, pois pode dividir os esforços dos desenvolvedores na ferramenta. Por razões da tecnologia de controle de versão de software (git), o número de forks é quanto maior melhor, pois, além da facilidade dos forks serem facilmente convergidos ao tronco principal de desenvolvimento, estimula uma maior criação de funcionalidades por desenvolvedores que não tem acesso ao tronco principal de desenvolvimento.
+
 \section{Avaliação por checklist}
 
-A avaliação pela checklist apresentada no capítulo anterior trouxe resultados interessantes. Pelo fato dela ser muito longa e em formato excel, as checklists de cada ferramenta estão disponíveis nesta url \url{https://github.com/rafaelsouza/tcc/tree/master/checklists/}. 
+A aplicação da avaliação por checklist apresentada no capítulo anterior trouxe resultados interessantes. Pelo fato dela ser muito longa e em formato Excel, as checklists de cada ferramenta estão disponíveis nesta url \url{https://github.com/rafaelsouza/tcc/tree/master/checklists/}. 
 
-As imagens com a tabela e o gráfico do resultado da checklist contém dois critérios não utilizados na checklist (Trust \& Credibility, Writing \& Content Quality), pois está fora do escopo desta avaliação.
+As imagens com a tabela e o gráfico do resultado da checklist contém dois critérios não utilizados na checklist (Trust \& Credibility, Writing \& Content Quality), pois, está fora do escopo desta avaliação.
 
-Abaixo há o resultado da avaliação de cada ferramenta e os pontos importantes levantados pela inspeção por checklist efetuada. 
+A seguir há o resultado da avaliação de cada ferramenta e os pontos importantes levantados pela inspeção por checklist efetuada. 
 
-A inspeção das três ferramentas foi executada pelo autor.
+A inspeção das três ferramentas foi executada pelo próprio autor do trabalho.
 
 \input{radiant_checklist}
 \input{refinery_checklist}

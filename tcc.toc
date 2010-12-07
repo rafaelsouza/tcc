@@ -5,51 +5,51 @@
 \contentsline {section}{\numberline {1.1}Justificativa}{9}{section.1.1}
 \contentsline {section}{\numberline {1.2}Objetivos Gerais}{9}{section.1.2}
 \contentsline {section}{\numberline {1.3}Objetivos Espec\IeC {\'\i }ficos}{9}{section.1.3}
-\contentsline {section}{\numberline {1.4}Limita\IeC {\c c}\IeC {\~o}es do trabalho}{10}{section.1.4}
+\contentsline {section}{\numberline {1.4}Delimita\IeC {\c c}\IeC {\~o}es do trabalho}{10}{section.1.4}
 \contentsline {chapter}{\numberline {2}Metodologia}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}QSOS - Qualification and Selection of Open Source Software}{11}{section.2.1}
+\contentsline {section}{\numberline {2.1}QSOS - Qualifica\IeC {\c c}\IeC {\~a}o e Sele\IeC {\c c}\IeC {\~a}o de Software em C\IeC {\'o}digo Aberto}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Inspe\IeC {\c c}\IeC {\~a}o por Checklist}{12}{section.2.2}
 \contentsline {section}{\numberline {2.3}Avalia\IeC {\c c}\IeC {\~a}o da comunidade}{12}{section.2.3}
-\contentsline {chapter}{\numberline {3}Estrutura do Trabalho}{14}{chapter.3}
+\contentsline {chapter}{\numberline {3}Trabalhos relacionados}{14}{chapter.3}
 \contentsline {chapter}{\numberline {4}CMS}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}O que \IeC {\'e} Conte\IeC {\'u}do}{16}{section.4.1}
 \contentsline {section}{\numberline {4.2}Tipos de CMS}{16}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}Portais ou CMS gen\IeC {\'e}ricos ou Web Content Management Systems}{16}{subsection.4.2.1}
-\contentsline {paragraph}{Principais Caracter\IeC {\'\i }sticas}{16}{section*.5}
+\contentsline {paragraph}{Principais Caracter\IeC {\'\i }sticas dos WCMS}{16}{section*.5}
 \contentsline {paragraph}{Exemplos de WCMS}{17}{section*.6}
 \contentsline {subsection}{\numberline {4.2.2}Blog CMS}{17}{subsection.4.2.2}
-\contentsline {paragraph}{Principais Caracter\IeC {\'\i }sticas}{18}{section*.7}
+\contentsline {paragraph}{Principais Caracter\IeC {\'\i }sticas dos Blogs}{18}{section*.7}
 \contentsline {paragraph}{Exemplos de Blog CMS}{18}{section*.8}
 \contentsline {subsection}{\numberline {4.2.3}Wiki CMS}{18}{subsection.4.2.3}
-\contentsline {paragraph}{Principais Caracter\IeC {\'\i }sticas}{18}{section*.9}
+\contentsline {paragraph}{Principais Caracter\IeC {\'\i }sticas dos Wikis}{18}{section*.9}
 \contentsline {paragraph}{Exemplos de Wiki CMS}{19}{section*.10}
 \contentsline {subsection}{\numberline {4.2.4}eLearning CMSs}{19}{subsection.4.2.4}
-\contentsline {paragraph}{Principais Caracter\IeC {\'\i }sticas}{19}{section*.11}
+\contentsline {paragraph}{Principais Caracter\IeC {\'\i }sticas dos LCMS}{19}{section*.11}
 \contentsline {paragraph}{Exemplos de eLearning CMS}{19}{section*.12}
-\contentsline {chapter}{\numberline {5}Usabilidade}{20}{chapter.5}
-\contentsline {section}{\numberline {5.1}M\IeC {\'e}todos de Avalia\IeC {\c c}\IeC {\~a}o}{22}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}T\IeC {\'e}cnicas Prospectivas}{22}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}T\IeC {\'e}cnicas Preditivas ou Diagn\IeC {\'o}sticas}{23}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Avalia\IeC {\c c}\IeC {\~o}es Anal\IeC {\'\i }ticas}{24}{subsection.5.1.3}
-\contentsline {subsubsection}{Avalia\IeC {\c c}\IeC {\~o}es Heur\IeC {\'\i }sticas}{24}{section*.13}
-\contentsline {subsubsection}{Inspe\IeC {\c c}\IeC {\~o}es por Checklist}{25}{section*.14}
-\contentsline {subsection}{\numberline {5.1.4}T\IeC {\'e}cnicas Objetivas ou Emp\IeC {\'\i }ricas}{26}{subsection.5.1.4}
-\contentsline {chapter}{\numberline {6}Ferramentas Avaliadas}{27}{chapter.6}
-\contentsline {section}{\numberline {6.1}RadiantCMS}{27}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Caracter\IeC {\'\i }sticas}{27}{subsection.6.1.1}
-\contentsline {section}{\numberline {6.2}RefineryCMS}{28}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Caracter\IeC {\'\i }sticas}{29}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}BrowserCMS}{29}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Caracter\IeC {\'\i }sticas}{29}{subsection.6.3.1}
-\contentsline {chapter}{\numberline {7}Avalia\IeC {\c c}\IeC {\~a}o das ferramentas}{33}{chapter.7}
-\contentsline {section}{\numberline {7.1}Qualification and Selection of Open Source Sofware}{33}{section.7.1}
-\contentsline {section}{\numberline {7.2}Avalia\IeC {\c c}\IeC {\~a}o da Comunidade Open Source}{33}{section.7.2}
-\contentsline {section}{\numberline {7.3}Avalia\IeC {\c c}\IeC {\~a}o por checklist}{34}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Radiant}{35}{subsection.7.3.1}
+\contentsline {chapter}{\numberline {5}Usabilidade}{21}{chapter.5}
+\contentsline {section}{\numberline {5.1}M\IeC {\'e}todos de Avalia\IeC {\c c}\IeC {\~a}o}{23}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}T\IeC {\'e}cnicas Prospectivas}{23}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}T\IeC {\'e}cnicas Preditivas ou Diagn\IeC {\'o}sticas}{24}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Avalia\IeC {\c c}\IeC {\~o}es Anal\IeC {\'\i }ticas}{25}{subsection.5.1.3}
+\contentsline {subsubsection}{Avalia\IeC {\c c}\IeC {\~o}es Heur\IeC {\'\i }sticas}{25}{section*.13}
+\contentsline {subsubsection}{Inspe\IeC {\c c}\IeC {\~o}es por Checklist}{26}{section*.14}
+\contentsline {subsection}{\numberline {5.1.4}T\IeC {\'e}cnicas Objetivas ou Emp\IeC {\'\i }ricas}{27}{subsection.5.1.4}
+\contentsline {chapter}{\numberline {6}Ferramentas Avaliadas}{28}{chapter.6}
+\contentsline {section}{\numberline {6.1}RadiantCMS}{28}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Principais Caracter\IeC {\'\i }sticas do Radiant}{28}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}RefineryCMS}{29}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Principais Caracter\IeC {\'\i }sticas do Refinery}{30}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}BrowserCMS}{30}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Principais Caracter\IeC {\'\i }sticas do BrowserCMS}{31}{subsection.6.3.1}
+\contentsline {chapter}{\numberline {7}Avalia\IeC {\c c}\IeC {\~a}o das ferramentas}{34}{chapter.7}
+\contentsline {section}{\numberline {7.1}Qualification and Selection of Open Source Sofware}{34}{section.7.1}
+\contentsline {section}{\numberline {7.2}Avalia\IeC {\c c}\IeC {\~a}o da Comunidade Open Source}{35}{section.7.2}
+\contentsline {section}{\numberline {7.3}Avalia\IeC {\c c}\IeC {\~a}o por checklist}{36}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Radiant}{36}{subsection.7.3.1}
 \contentsline {subsection}{\numberline {7.3.2}Refinery}{37}{subsection.7.3.2}
 \contentsline {subsection}{\numberline {7.3.3}BrowserCMS}{38}{subsection.7.3.3}
-\contentsline {subsection}{\numberline {7.3.4}Coment\IeC {\'a}rio da Inspe\IeC {\c c}\IeC {\~a}o por Checklist}{39}{subsection.7.3.4}
-\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o}{44}{chapter.8}
-\contentsline {chapter}{\numberline {9}Anexos}{47}{chapter.9}
-\contentsline {section}{\numberline {9.1}Crit\IeC {\'e}rios QSOS}{47}{section.9.1}
-\contentsline {section}{\numberline {9.2}Checklist}{47}{section.9.2}
+\contentsline {subsection}{\numberline {7.3.4}Coment\IeC {\'a}rio da Inspe\IeC {\c c}\IeC {\~a}o por Checklist}{40}{subsection.7.3.4}
+\contentsline {chapter}{\numberline {8}Conclus\IeC {\~a}o}{46}{chapter.8}
+\contentsline {chapter}{\numberline {9}Anexos}{49}{chapter.9}
+\contentsline {section}{\numberline {9.1}Crit\IeC {\'e}rios QSOS}{49}{section.9.1}
+\contentsline {section}{\numberline {9.2}Checklist}{49}{section.9.2}

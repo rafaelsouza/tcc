@@ -1,6 +1,6 @@
 \chapter{Ferramentas Avaliadas}
 
-As ferramentas avaliadas pertencem ao grupo dos Web Content Management Systems, que serão avaliadas dentro deste contexto elas.
+As ferramentas avaliadas pertencem ao grupo dos Web Content Management Systems, são escritas em Ruby on Rails, e foram as mais populares encontradas no site github.com .
 
 \section{RadiantCMS}
 
@@ -11,7 +11,7 @@ Radiant é um sistema de gerenciamento de conteúdo aberto, simples e projetado 
 
 Radiant é um dos CMS mais antigos disponíveis para Ruby, lançado em 2006. De instalação e uso simples tem uma grande quantidade de plugins disponíveis e uma grande comunidade mantenedora da aplicação.
 
-\subsection{Características}
+\subsection{Principais Características do Radiant}
 
 \begin{itemize}
   \item Interface intuitiva
@@ -20,6 +20,8 @@ Radiant é um dos CMS mais antigos disponíveis para Ruby, lançado em 2006. De 
   \item Snippets
   \item Linguagem específica de domínio Radius.
 \end{itemize}
+
+A Figura \ref{fig:radiant_admin} mostra a interface de administração do Radiant, que é relativamente simples.
 
 \begin{figure}[here]
 \includegraphics[width=150mm]{images/radiant_admin.png}
@@ -35,11 +37,11 @@ Radius é uma linguagem específica de domínio escrita em Ruby, baseada em tags
 
 \section{RefineryCMS}
 
-RefineryCMS é um sistema gerenciador de conteúdos desenvolvido pela Resolve Digital. Ele é um sistema que começou em 2005 e que em meados de 2009 abriu o seu código para a comunidade. Projetado para pequenos projetos onde pessoas possam manter o conteúdo sem muita complexidade. Possui uma interface amigável, simples de se trabalhar, com um editor de conteúdo WYISWYM (What You See Is What You Mean) integrado. Sua instalação é simples e a documentação é pequena porém bem organizada. Ele recentemente foi portado ja para  Ruby on Rails versão 3 e utiliza engines, que são mini aplicações Rails dentro de um projeto Rails, como forma de extensão, facilitando para a comunidade escrever extensões para a ferramenta. 
+RefineryCMS é um sistema gerenciador de conteúdos desenvolvido pela Resolve Digital. Ele é um sistema que começou em 2005 e que em meados de 2009 abriu o seu código para a comunidade. Projetado para pequenos projetos onde pessoas possam manter o conteúdo sem muita complexidade. Possui uma interface amigável, simples de se trabalhar, com um editor de conteúdo WYISWYM (What You See Is What You Mean) integrado. Sua instalação é simples e a documentação é pequena porém bem organizada. Ele recentemente foi portado para  Ruby on Rails versão 3. Ele utiliza engines, que são mini aplicações Rails dentro de um projeto Rails, como forma de extensão, facilitando para a comunidade escrever extensões para a ferramenta. 
 
 O sistema de modelos (templates) do Refinery é feito através de temas, gerados a partir de seu modelo de extensões. Seu ponto forte é que não é necessário aprender uma linguagem específica de domínio como o Radius para efetuar as customizações de layout. Uma desvantagem é que o usuário final pouco pode customizar um layout dentro da interface de administração.
 
-\subsection{Características}
+\subsection{Principais Características do Refinery}
 
 \begin{itemize}
   \item Interface intuitiva, fácil para usuários não técnicos.
@@ -49,23 +51,25 @@ O sistema de modelos (templates) do Refinery é feito através de temas, gerados
   \item O foco do usuário final é somente gerenciar conteúdo.
 \end{itemize}
 
+A Figura \ref{fig:refinery_admin} mostra o painel de controle do Refinery, que mostra o acesso rápido as ações mais comuns ao gerenciar conteúdo. A Figura \ref{refinery_new_page} mostra a interface de gerenciamento de um conteúdo do Refinery.
+
 \begin{figure}[here]
 \includegraphics[width=150mm]{images/refinery_admin.png}
 \caption{Interface de administração do Refinery}
-\label{fig:refinery_admin.png}
+\label{fig:refinery_admin}
 \end{figure}
 
 \begin{figure}[here]
 \includegraphics[width=150mm]{images/refinery_new_page.jpg}
 \caption{Interface de criação / edição de página do Refinery}
-\label{fig:refinery_new_page.jpg}
+\label{fig:refinery_new_page}
 \end{figure}
 
 \section{BrowserCMS}
 
-BrowserCMS é um sistema gerenciador de conteúdos desenvolvido pela empresa BrowserMedia, econtra-se na versão 3.1.2. Foi por vários anos um CMS comercialmente licensiado, escrito na linguagem Java. Motivados pela "onda" de Ruby on Rails, e pela falta de um CMS em Ruby on Rails que suprisse as necessidades de seus clientes, reescreveram o seu CMS em 2009 e deixaram-o com uma licensa de código aberto.
+BrowserCMS é um sistema gerenciador de conteúdos desenvolvido pela empresa BrowserMedia, encontra-se na versão 3.1.2. Foi, por vários anos um CMS comercialmente licensiado, escrito na linguagem Java. Motivados pela "onda" de Ruby on Rails, e pela falta de um CMS em Ruby on Rails que suprisse as necessidades de seus clientes, reescreveram o seu CMS em 2009 e deixaram-o com uma licensa de código aberto.
 
-\subsection{Características}
+\subsection{Principais Características do BrowserCMS}
 
 \begin{itemize}
   \item Sistema voltado ao mundo corporativo para grandes e médias organizações.
@@ -76,16 +80,18 @@ BrowserCMS é um sistema gerenciador de conteúdos desenvolvido pela empresa Bro
   \item Documentação pequena.
 \end{itemize}
 
+A figura \ref{browser_cms_new_page} mostra a criação de uma página no Browsercms, notem que ela é desvinculada do conteúdo, diferentemente do que acontece com Radiant e Refinery, devido a possibilidade de reuso do conteúdo. A Figura \ref{browsercms_new_content} mostra a interface de criação de conteúdo do BrowserCMS.
+
 \begin{figure}[here]
 \includegraphics[width=150mm]{images/browser_cms_new_page.jpg}
 \caption{Interface de criação de página do BrowserCMS}
-\label{fig:browsercms_new_page.png}
+\label{fig:browsercms_new_page}
 \end{figure}
 
 \begin{figure}[here]
 \includegraphics[width=150mm]{images/browser_cms_new_content.jpg}
 \caption{Interface de criação de conteúdo do BrowserCMS}
-\label{fig:browsercms_new_content.png}
+\label{fig:browsercms_new_content}
 \end{figure}
 
 
